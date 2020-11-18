@@ -1,3 +1,4 @@
+"use strict";
 // 型
 // number
 // string
@@ -14,5 +15,3 @@ x = 'hello';
 //配列
 var arr;
 arr = [10, 5, 2];
-
-console.log(arr);

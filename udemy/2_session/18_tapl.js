@@ -1,3 +1,4 @@
+"use strict";
 var book = ['business', 1500, false];
 console.log(book);
 book[1] = 23;

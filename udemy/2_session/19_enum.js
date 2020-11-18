@@ -1,4 +1,7 @@
+"use strict";
 //enum(列挙型)
+//文字列じゃなくても良い
+//enumについては大文字で書くことが多い
 var CoffeeSize;
 (function (CoffeeSize) {
     CoffeeSize[CoffeeSize["SHORT"] = 0] = "SHORT";

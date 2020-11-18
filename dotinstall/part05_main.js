@@ -1,3 +1,4 @@
+"use strict";
 // 列挙型
 // Signal
 var Signal;

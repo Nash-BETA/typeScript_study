@@ -90,5 +90,19 @@
 
 #### noImplicitAnyやstrictNullChecks
  + コードの厳しさの設定
+ + strictのtrue
+   + "rict","noImplicitAny","strictNullChecks","strictFunctionTypes","strictBindCallApply","strictPropertyInitialization","noImplicitThis", "alwaysStrict"の全てがtrueになる
+ + noImplicitAny
+   + 暗黙的なエラーの許可(true→許可しない)
+   + 関数の場合にのみ反映され、変数は対象外
+ + strictNullChecks
+   +stringのnullの許容設定
 
 #### 綺麗なコードを各設定
+ + noUnusedLocals(デフォルトはfalse)
+   + trueにすると使っていない変数にエラーが出る
+   + グローバル変数ではエラーは出ない
+ + noUnusedParameters
+   + インスタンス化などメソッドを読んだ時にパラメータがおかしければエラーを出す
+ + noImplicitReturns
+   + 暗黙的なリターンはエラーを吐く

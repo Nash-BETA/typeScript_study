@@ -1,11 +1,10 @@
-function echo(mess: string){
+"use strict";
+function echo(mess) {
     return mess;
 }
-
-let imp;
+var imp;
 imp = 'mozi';
 imp.toUpperCase();
-
 //let null :string = null;
 //let null_test : string = undefind;
-let test_null: null = undefined;
+var test_null = undefined;

@@ -68,7 +68,7 @@
     "forceConsistentCasingInFileNames": true  /* Disallow inconsistently-cased references to the same file. */
   },
   "include": [
-    "index.ts",
+    "**/4_session/*.ts",
   ],
 //  "exclude": [
 //    "index.ts",

@@ -14,5 +14,6 @@ var PersonClass = /** @class */ (function () {
 }());
 var per = new PersonClass('nakayama', 30);
 per.greeting();
-per.incrementAge();
+per.age = 50;
+//per.incrementAge();
 per.greeting();

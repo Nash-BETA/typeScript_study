@@ -1,6 +1,7 @@
 class PersonClass {
-  name:string;
-  age:number;
+  private name:string;
+  //age: number;
+  private age: number;
   constructor(initName: string,initAge:number) {
     this.name = initName;
     this.age = initAge;
@@ -17,5 +18,6 @@ class PersonClass {
 
 const per = new PersonClass('nakayama',30);
 per.greeting();
+//per.age = 50;
 per.incrementAge();
 per.greeting();

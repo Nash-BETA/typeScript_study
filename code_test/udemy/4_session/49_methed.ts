@@ -1,4 +1,4 @@
-class Person {
+class Pers {
     name:string;
     constructor(initName: string) {
         this.name = initName;

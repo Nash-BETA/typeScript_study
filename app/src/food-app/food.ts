@@ -1,5 +1,5 @@
-import * as Interfaces from './interfaces.js';
-import { Score as ScoreAs} from './score.js';
+import * as Interfaces from './interfaces';
+import { Score as ScoreAs} from './score';
 
 export default class Food implements Interfaces.Foodable {
     constructor(public element: HTMLDivElement) {

@@ -139,9 +139,18 @@
  + モジュールの書き方次第では対応していないブラウザがあるが、これを使うことですべてのブラウザで対応することができる
 
 ### コンパイルせずtsのままブラウザで使う
- + npm install --save-dev ts-loder typescript
+ + npm install --save-dev ts-loader typescript
    + インストール
  + ts-loder
    + moduleされる際にコンパイルも行ってくれる
  + typescript
    + ローカルにtsを入れないとTSを読み込んでくれないためインストールする
+
+### webpack-dev-server
+ + tscコマンドのウォッチモードみたいなやつ
+ + npm install --save-dev webpack-dev-server
+   + インストール
+ + package.jsonの記入
+   + scriptsのなかに"start":"serve"と記述
+ + bundlファイルは生成されないが、サーバー内にメモリとして持つためディレクトリには表示されない
+   + ただし、/bundle.jsを開くとコードはみれる

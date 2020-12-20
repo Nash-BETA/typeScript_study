@@ -1,8 +1,8 @@
 # typeScript_study
+  + Udemyの超TypeScript入門 完全パック(2020)の勉強用のレポジトリ
+   + https://www.udemy.com/course/typescript-complete/
+  + いったん完結
 
-
-
-セッション3以降メモとして下記に記載
 ## session3
 
 ### コンパイラを使う方法
